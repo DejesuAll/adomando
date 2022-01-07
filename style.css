@@ -1,0 +1,211 @@
+
+p{
+    font-weight: 300;
+    color: black;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px; 
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    transition: 0.5s;
+}
+.logos{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
+span{
+    color: orangered;
+}
+.menu{
+  
+   display: flex;
+   position: relative;
+
+}
+.menu li{
+    list-style-type: none;
+
+}
+.menu a{
+    color: white;
+     text-decoration: none;
+     margin-left: 30px;
+     font-weight: 700;
+}
+.appell:hover{
+    background: orangered;
+    transition: ease-out;
+}
+.appel{
+    padding: 10px 20px; 
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.appel:hover{
+     background: orangered;
+     transition: ease-out;
+}
+header .menu li a :hover{
+    color: orangered;
+    border-bottom: 1px solid black;
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+.section1{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/magdalena-smolnicka-qTPFNg1fmxs-unsplash.jpg);
+    background-size: cover;
+
+}
+.section2{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/fachrizal-maulana-u9fYjsIIFes-unsplash.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    color: white;
+    padding: 5px;
+
+}
+.section1 .contenu{
+max-width: 70%;
+text-align: center;
+}
+.section1 .contenu h2 {
+    color: #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+
+}
+.section2 .para3{
+    color: #fff;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+.contenu p:nth-child(2){
+    color: #fff;
+    font-size: 1.2em;
+}
+.autreSpan{
+    color: white;
+    background-color: orangered;
+    padding: 2.5px;
+}
+.adom1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.5em;
+}
+.adom2 {
+    font-size: 1.5em;
+}
+.option .sous-option .element{
+    color: orangered;
+    text-transform: capitalize;
+}
+.option .element{
+    color: orangered;
+    text-transform: capitalize; 
+}
+.apropos{
+    text-justify: auto;
+    text-transform: initial;
+    text-align: center;
+    margin: auto;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.row .image{
+position: relative;
+width: 48%;
+justify-content: center;
+align-items: center;
+
+}
+.row .image h2{
+    margin-bottom: 20px;
+
+}
+.titretexte{
+    color: black;
+    font-size: 2em;
+    font-weight: 100px;
+    text-transform: capitalize;
+}
+.titretexte span{
+    color: orangered;
+    font-size: 1.8em;
+    font-weight:700px ;
+}
+.row .image img{
+    height: 450px;
+    width: 600px;
+    position: relative;
+}
+ 
+#diaspora {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px ;
+}
+#diaspora .photos{
+    border-top: 10px;
+    width: 200px;
+    height: 200px;
+ 
+}
+/*  
+ @-webkit-keyframes sliderleft{
+    0% {left :0%}
+    20% {left :0%}
+    25% {left :-100%}
+    45% {left :-100%}
+    50% {left :-200%}
+    70% {left :-200%}
+    80% {left :-300%}
+    95% {left :-300%}
+    100% {left :-400%}
+}
+#diaspora{
+    max-width: 350px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 20px solid white;  
+}
+#diaspora figure{
+    position: relative;
+    width: 500%;
+    -webkit-animation: 20s sliderleft infinite;
+}
+#diaspora figure img{
+width: 20%;
+float: left;
+margin: 100px;
+}*/
+
